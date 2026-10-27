@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Linear Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050d1a" />
+      <stop offset="50%" stop-color="#0a192f" />
+      <stop offset="100%" stop-color="#030811" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.08)" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)" />
+    </linearGradient>
+
+    <linearGradient id="glowG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="glowB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Filters for glow -->
+    <filter id="blurGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" result="blur" />
+    </filter>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+
+    <style>
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 52px;
+        fill: #ffffff;
+        letter-spacing: -1px;
+      }
+      .gradient-title {
+        fill: url(#primaryGrad);
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        fill: #94a3b8;
+      }
+      .tagline-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        fill: #34d399;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+      .badge-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #e2e8f0;
+      }
+
+      /* Animated SVG Elements */
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(1deg); }
+      }
+      @keyframes floatReverse {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(10px); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.65; transform: scale(1.08); }
+      }
+      @keyframes flowLine {
+        0% { stroke-dashoffset: 400; }
+        100% { stroke-dashoffset: 0; }
+      }
+
+      .floating-card-1 {
+        animation: floatSlow 6s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .floating-card-2 {
+        animation: floatReverse 7s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .orb-pulse-1 {
+        animation: pulseGlow 5s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .orb-pulse-2 {
+        animation: pulseGlow 7s ease-in-out infinite 1s;
+        transform-origin: center;
+      }
+      .pulse-stream {
+        stroke-dasharray: 12, 12;
+        animation: flowLine 15s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Deep Canvas Background -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" />
+
+  <!-- Subdued Technical Grid Pattern -->
+  <g stroke="rgba(255, 255, 255, 0.04)" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="420" />
+    <line x1="200" y1="0" x2="200" y2="420" />
+    <line x1="300" y1="0" x2="300" y2="420" />
+    <line x1="400" y1="0" x2="400" y2="420" />
+    <line x1="500" y1="0" x2="500" y2="420" />
+    <line x1="600" y1="0" x2="600" y2="420" />
+    <line x1="700" y1="0" x2="700" y2="420" />
+    <line x1="800" y1="0" x2="800" y2="420" />
+    <line x1="900" y1="0" x2="900" y2="420" />
+    <line x1="1000" y1="0" x2="1000" y2="420" />
+    <line x1="1100" y1="0" x2="1100" y2="420" />
+    <line x1="0" y1="70" x2="1200" y2="70" />
+    <line x1="0" y1="140" x2="1200" y2="140" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="280" x2="1200" y2="280" />
+    <line x1="0" y1="350" x2="1200" y2="350" />
+  </g>
+
+  <!-- Dynamic Glowing Orbs in Background -->
+  <circle class="orb-pulse-1" cx="200" cy="120" r="140" fill="url(#glowG)" filter="url(#blurGlow)" />
+  <circle class="orb-pulse-2" cx="1020" cy="240" r="160" fill="url(#glowB)" filter="url(#blurGlow)" />
+
+  <!-- Animated Treasury Cash Flow Curved Curves -->
+  <path class="pulse-stream" d="M 0 340 C 300 340, 450 180, 800 240 C 1000 280, 1100 200, 1200 210" fill="none" stroke="rgba(16, 185, 129, 0.25)" stroke-width="3" />
+  <path class="pulse-stream" d="M 0 380 C 250 380, 500 260, 850 300 C 1050 320, 1150 160, 1200 170" fill="none" stroke="rgba(6, 182, 212, 0.2)" stroke-width="2" />
+
+  <!-- Right Side Interactive Graphic Cards (Background / Midground) -->
+  <g class="floating-card-1" filter="url(#cardShadow)">
+    <rect x="790" y="80" width="340" height="120" rx="16" fill="url(#cardGrad)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.2" backdrop-filter="blur(16px)" />
+    <!-- Mini Metric Badge -->
+    <circle cx="826" cy="115" r="16" fill="rgba(16, 185, 129, 0.2)" stroke="#10b981" stroke-width="1.5" />
+    <path d="M 821 115 L 825 119 L 832 111" fill="none" stroke="#10b981" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="852" y="112" class="badge-text" font-weight="700" fill="#ffffff" font-size="14">Liquidity Positioning</text>
+    <text x="852" y="128" class="badge-text" fill="#94a3b8" font-size="11">Real-Time Multi-Bank Reconciled</text>
+    <text x="826" y="168" class="title-text" font-size="24" fill="#34d399">$142,850,000</text>
+    <text x="980" y="168" class="badge-text" fill="#06b6d4" font-size="12">▲ +12.4% Net Flow</text>
+  </g>
+
+  <g class="floating-card-2" filter="url(#cardShadow)">
+    <rect x="740" y="230" width="370" height="130" rx="16" fill="url(#cardGrad)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.2" backdrop-filter="blur(16px)" />
+    <!-- Forecast Waves Simulation -->
+    <circle cx="776" cy="265" r="16" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" stroke-width="1.5" />
+    <path d="M 770 268 L 774 262 L 778 266 L 783 259" fill="none" stroke="#60a5fa" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="802" y="262" class="badge-text" font-weight="700" fill="#ffffff" font-size="14">13-Week Rolling Forecast</text>
+    <text x="802" y="278" class="badge-text" fill="#94a3b8" font-size="11">Automated Variance &amp; ISO 20022</text>
+
+    <!-- Mini Bar Chart -->
+    <rect x="775" y="315" width="22" height="26" rx="4" fill="#3b82f6" opacity="0.6"/>
+    <rect x="805" y="305" width="22" height="36" rx="4" fill="#3b82f6" opacity="0.75"/>
+    <rect x="835" y="295" width="22" height="46" rx="4" fill="#06b6d4" opacity="0.85"/>
+    <rect x="865" y="290" width="22" height="51" rx="4" fill="#10b981"/>
+    <rect x="895" y="298" width="22" height="43" rx="4" fill="#10b981" opacity="0.85"/>
+    <rect x="925" y="285" width="22" height="56" rx="4" fill="#34d399"/>
+    <rect x="955" y="280" width="22" height="61" rx="4" fill="#6ee7b7"/>
+
+    <path d="M 786 312 Q 850 280, 966 275" fill="none" stroke="#fcd34d" stroke-width="2.5" stroke-dasharray="4,4"/>
+  </g>
+
+  <!-- Left Side Foreground Banner Content (Ensures Titles Always in Foreground) -->
+  <g transform="translate(80, 0)">
+    <!-- Category Pill Tag -->
+    <g transform="translate(0, 75)">
+      <rect x="0" y="0" width="248" height="30" rx="15" fill="rgba(16, 185, 129, 0.12)" stroke="rgba(52, 211, 153, 0.4)" stroke-width="1.2" />
+      <circle cx="16" cy="15" r="4.5" fill="#34d399" />
+      <text x="28" y="20" class="tagline-text">Curated Fintech List</text>
+    </g>
+
+    <!-- Main Title -->
+    <g transform="translate(0, 160)">
+      <text class="title-text">
+        Awesome <tspan class="gradient-title">Cash Management</tspan>
+      </text>
+    </g>
+
+    <!-- Subtitle / Value Proposition -->
+    <g transform="translate(0, 205)">
+      <text class="subtitle-text">
+        Cash Positioning • Liquidity Forecasting • Bank Reconciliation • Treasury Ops
+      </text>
+    </g>
+
+    <!-- Feature Pills -->
+    <g transform="translate(0, 255)">
+      <!-- Pill 1 -->
+      <rect x="0" y="0" width="168" height="36" rx="18" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1" />
+      <text x="18" y="23" class="badge-text">⚡ SaaS TMS Suites</text>
+
+      <!-- Pill 2 -->
+      <rect x="180" y="0" width="186" height="36" rx="18" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1" />
+      <text x="198" y="23" class="badge-text">🔓 Open-Source Engines</text>
+
+      <!-- Pill 3 -->
+      <rect x="378" y="0" width="176" height="36" rx="18" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1" />
+      <text x="396" y="23" class="badge-text">📊 Market Dynamics</text>
+    </g>
+
+    <!-- Additional Trust Indicators -->
+    <g transform="translate(0, 325)">
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#64748b">
+        Updated for 2026 • Verified Pricing Benchmarks • Transparent Metrics
+      </text>
+    </g>
+  </g>
+</svg>
