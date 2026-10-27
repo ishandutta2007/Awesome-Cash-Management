@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Cash-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cash-Management?style=for-the-badge&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cash-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cash-Management?style=for-the-badge&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cash-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cash-Management?style=for-the-badge&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cash-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Cash-Management?style=for-the-badge&logo=github&color=red" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cash-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey?style=for-the-badge" alt="License" /></a>
@@ -64,9 +64,9 @@ A comprehensive breakdown of leading corporate cash management and treasury suit
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated open-source repositories for self-hosted cash flow visibility, programmatic bank statement reconciliation, financial ledgers, and automated liquidity modeling. Sorted descending by GitHub star count.
+Curated open-source repositories for self-hosted cash flow visibility, programmatic bank statement reconciliation, financial ledgers, and automated liquidity modeling. Sorted descending by GitHub Stars_Count.
 
-| Project | ⭐ Stars | 🛠️ Tech Stack | 📜 License | 💡 Description & Features |
+| Project | ⭐ GitHub_Stars | 🛠️ Tech Stack | 📜 License | 💡 Description & Features |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Firefly III](https://github.com/firefly-iii/firefly-iii)** | [![Stars](https://img.shields.io/github/stars/firefly-iii/firefly-iii?style=social&color=white)](https://github.com/firefly-iii/firefly-iii/stargazers) | PHP (Laravel) | AGPL-3.0 | Self-hosted financial manager supporting multi-bank account tracking, cash flow rules, double-entry ledgers, and liquidity monitoring. |
 | **[Apache Fineract](https://github.com/apache/fineract)** | [![Stars](https://img.shields.io/github/stars/apache/fineract?style=social&color=white)](https://github.com/apache/fineract/stargazers) | Java | Apache-2.0 | Open-source core banking platform with teller and cashier cash management, liquidity accounting, and financial portfolio management. |
@@ -97,7 +97,7 @@ Contributions are very welcome! To suggest an update, add a missing SaaS platfor
 
 1. 🍴 **Fork the repository** on GitHub.
 2. 🌿 **Create a new branch** (`git checkout -b feature/new-cash-management-tool`).
-3. ✏️ **Add/edit entries in `README.md`** following the existing tabular structure, ensuring pricing or star counts are properly referenced.
+3. ✏️ **Add/edit entries in `README.md`** following the existing tabular structure, ensuring pricing or Stars_Counts are properly referenced.
 4. 🚀 **Commit your changes** with a clear message (`git commit -m "Add ToolName to cash management list"`).
 5. 📬 **Submit a Pull Request** describing the addition.
 
